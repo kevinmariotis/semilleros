@@ -8,7 +8,7 @@ export const ForgotPass = () => {
             <div className="card card-outline card-primary">
                 <div className="card-body">
                 <p className="login-box-msg">¿Olvidaste tu contraseña? Aquí puede recuperar fácilmente una nueva contraseña.</p>
-                <form action="recover-password.html" method="post">
+                <form>
                     <div className="input-group mb-3">
                     <input type="email" className="form-control" placeholder="Correo Electronico"/>
                     <div className="input-group-append">
@@ -21,14 +21,12 @@ export const ForgotPass = () => {
                     <div className="col-12">
                         <button type="submit" className="btn btn-primary btn-block">Nueva Contraseña</button>
                     </div>
-                    {/* <!-- /.col --> */}
                     </div>
                 </form>
                 <p className="mt-3 mb-1">
                     <Link to="/">Iniciar Sesion</Link>
                 </p>
                 </div>
-                {/* <!-- /.login-card-body --> */}
             </div>
         </div>
     </div>

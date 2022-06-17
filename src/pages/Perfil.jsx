@@ -5,7 +5,6 @@ import { Navbar } from "../components/Navbar";
 import { ProfileContent } from "../components/ProfileContent";
 
 export const Perfil = () => {
-
   return (
     <>
       <Navbar />

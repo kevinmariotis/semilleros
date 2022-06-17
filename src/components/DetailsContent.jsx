@@ -1,6 +1,4 @@
-import { getIdToken } from 'firebase/auth'
 import React from 'react'
-import { useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 export const DetailsContent = () => {
@@ -62,7 +60,7 @@ export const DetailsContent = () => {
                     <textarea className='form-control' rows='4' value="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"></textarea>
                 </div>
             </div>
-            {id == 1 ? (
+            {id === '1' ? (
                 <div className='container'>
                     <button type="button" title="Aprobar Semillero" className="btn btn-success m-1" ><i className="fas fa-check"></i> Aceptar</button>
                     <button type="button" title="Rechazar Semillero" className="btn btn-danger m-1" ><i className="fas fa-trash"></i> Rechazar</button>
